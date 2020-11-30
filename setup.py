@@ -17,7 +17,7 @@ setuptools.setup(
     description=LONG_DESCRIPTION,
     long_description_content='text/markdown',
     url ="https://github.com/BobBriksz/lambdata-bobbriks",
-    packages= setuptools.find_packages #how we want to find our require packages
+    packages= setuptools.find_packages, #how we want to find our require packages
     python_requires=">=3.6", #what versions of python we are compatible with
     install_requires=REQUIRED,
     classifiers=[
